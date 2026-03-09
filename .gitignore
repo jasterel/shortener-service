@@ -1,0 +1,28 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# env
+.env
+.env.*
+
+# docker
+*.log
+
+# ide
+.idea
+.vscode
+
+# mac
+.DS_Store
+
+# postgres
+pgdata/
+
+# pytest
+.pytest_cache/
+
+# migrations
+alembic/versions/__pycache__
