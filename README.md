@@ -132,36 +132,6 @@ app
 
 ---
 
-# ⚙️ Environment Variables
-
-`.env`
-
-```
-APP_NAME=shortener-service
-APP_HOST=0.0.0.0
-APP_PORT=8000
-DEBUG=True
-
-POSTGRES_DB=shortener
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_SERVER=db
-POSTGRES_PORT=5432
-
-DATABASE_URL=postgresql+psycopg2://postgres:postgres@db:5432/shortener
-
-REDIS_URL=redis://redis:6379/0
-
-SECRET_KEY=supersecretkey
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=1440
-
-INACTIVE_DAYS=30
-CACHE_TTL_SECONDS=300
-```
-
----
-
 # 🐳 Run with Docker
 
 ### Build and start services
