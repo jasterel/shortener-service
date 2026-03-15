@@ -11,7 +11,14 @@ bcrypt==3.2.2
 redis
 celery
 python-multipart
+pydantic[email]
+
+# ── Testing ───────────────────────────────────────────────────────────────────
 pytest
 pytest-asyncio
+pytest-cov
+pytest-mock
 httpx
-pydantic[email]
+
+# ── Load testing ──────────────────────────────────────────────────────────────
+locust
